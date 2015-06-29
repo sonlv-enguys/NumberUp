@@ -82,10 +82,7 @@ public class MainActivity extends FragmentActivity  {
 	int max = 10;
 	int plush = 0;
 	int score = 0;
-	private static final int REQUEST_RESOLVE_ERROR = 1001;
 	private static final int REQUEST_SHARE_FACEBOOK = 1002;
-	private static final String DIALOG_ERROR = "dialog_error";
-	private boolean mResolvingError = false;
 	Boolean started = false;
 	Boolean result = true;
 	Boolean isShowDialog = false;
@@ -286,24 +283,24 @@ public class MainActivity extends FragmentActivity  {
 	}
 
 	public void startTime() {
-		// if (score > 0) {
-		// progressBar.setProgress(100);
-		// if (countDownTimer != null) {
-		// countDownTimer.cancel();
-		// }
-		// countDownTimer = new CountDownTimer(totalTime, 1) {
-		// public void onTick(long millisUntilFinished) {
-		// progressBar.setProgress(Math.round(100.0f
-		// * millisUntilFinished / totalTime));
-		// }
-		//
-		// public void onFinish() {
-		// progressBar.setProgress(0);
-		// showDialogPlayGame();
-		//
-		// }
-		// }.start();
-		// }
+		 if (score > 0) {
+		 progressBar.setProgress(100);
+		 if (countDownTimer != null) {
+		 countDownTimer.cancel();
+		 }
+		 countDownTimer = new CountDownTimer(totalTime, 1) {
+		 public void onTick(long millisUntilFinished) {
+		 progressBar.setProgress(Math.round(100.0f
+		 * millisUntilFinished / totalTime));
+		 }
+
+		 public void onFinish() {
+		 progressBar.setProgress(0);
+		 showDialogPlayGame();
+
+		 }
+		 }.start();
+		 }
 	}
 
 	public void showDialogPlayGame() {

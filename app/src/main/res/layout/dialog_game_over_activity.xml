@@ -50,15 +50,6 @@
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size" />
 
-        <TextView
-            android:id="@+id/txt_dialog_leaderboard"
-            android:layout_marginTop="@dimen/dialog_item_magin_top"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Leaderboard"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size" />
     </LinearLayout>
 
 </RelativeLayout>
