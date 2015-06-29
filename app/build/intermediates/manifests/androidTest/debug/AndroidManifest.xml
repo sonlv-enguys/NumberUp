@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.enguys.numberup.test">
+    package="com.game.numberup.test">
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="17" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.enguys.numberup"
+                     android:targetPackage="com.game.numberup"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.enguys.numberup"/>
+                     android:label="Tests for com.game.numberup"/>
 </manifest>
