@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color1">#E05896</color>
+    <color name="color2">#E7B563</color>
+    <color name="color3">#F37461</color>
+    <color name="color4">#9FCD51</color>
+    <color name="color5">#39B5A6</color>
+    <color name="color6">#00A6C2</color>
+    <color name="color7">#7C58A5</color>
+    <color name="color8">#C09E80</color>
+    <color name="color_bg">#22202E</color>
+    
+
+    <array name="colors">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+    </array>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Number Up"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_size" />
+
+        <TextView
+            android:layout_marginTop="@dimen/dialog_item_magin_top"
+            android:id="@+id/txt_dialog_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="New 3   Bet 9"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size" />
+
+        <ImageView
+            android:id="@+id/img_dialog_play"
+            android:layout_width="@dimen/play_size"
+            android:layout_height="@dimen/play_size"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/play_margin"
+            android:scaleType="fitXY"
+            android:src="@drawable/play" />
+
+        <TextView
+            android:id="@+id/txt_dialog_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Share"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/txt_dialog_leaderboard"
+            android:layout_marginTop="@dimen/dialog_item_magin_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Leaderboard"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+</RelativeLayout>
